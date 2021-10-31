@@ -26,5 +26,6 @@
 $(document).ready(function () {
   $('.jquery').on('click', function(){
     $(this).css('color','red');
+    $(this).css('font-size', '30px');
   });
 });
